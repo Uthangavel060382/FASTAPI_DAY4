@@ -1,0 +1,25 @@
+import streamlit as st
+st.title("Hello, Streamlit!")
+st.write("Welcome to my first Streamlit app!")
+st.button("Click me!")
+
+name = st.text_input("Enter your name:")
+st.write("You entered:", name)
+if st.button("Submit"):
+    st.write("Submitted name:", name)
+    st.success("Name submitted successfully!")
+    st.balloons()
+    st.write("Thank you for submitting your name!")
+    st.write("End of form submission.")
+    st.write("Form submission complete.")
+    st.write("Exiting form submission.")
+    st.write("Goodbye!")
+    st.write("End of script.")
+    st.write("Exiting application.")
+    st.write("Goodbye for real this time!")
+    st.write("See you later!")
+    st.write("Farewell!")
+    st.write("Until next time!")
+    st.write("Goodbye for real this time!")
+    st.write("See you next time!")
+    
